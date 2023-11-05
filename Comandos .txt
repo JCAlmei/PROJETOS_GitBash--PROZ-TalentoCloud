@@ -1,0 +1,15 @@
+"PASSOS E COMANDOS NECESSÁRIOS PARA CRIAÇÃO DE UM PROJETO"
+
+1° Passo - Criar uma pasta em seu computador através do comando 'mkdir "Nome da Pasta"' (recomendável realizar o processo através do Git Bash)
+
+2° PASSO - Iniciar um repositório através do comando 'git init' (atentar-se ao fato de estar realmente na pasta correta, para isso, podemos usar o comando 'pwd' e conferir se o nome que aparece no final, após a última barra (/), é realmente a pasta que queremos trabalhar)
+
+3° PASSO - Configurar um nome de usuário através do comando 'git config --global user.name NOME DO USUÁRIO' (se o computador for utilizado por mais de uma pessoa, é recomendado utilizar somente 'git config user.name NOME DO USUÁRIO')
+
+4° PASSO - Configurar um email através do comando 'git config --global user.email' (a mesma recomendação do comando user.name serve para o comando user.email)
+
+5° PASSO - Adicionar a pasta do projeto ao Workspace do VSCode através da opção Arquivo > Adicionar Pasta ao Workspace
+
+6° PASSO - Criar o primeiro arquivo, salvá-lo através do atalho 'CTRL + s' e adicioná-lo à "área de staging" através do comando 'git add .'
+
+7° PASSO - Realizar o primeiro commit através do comando 'git commit -m "Nome do Commit"'
